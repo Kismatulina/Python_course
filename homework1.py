@@ -48,6 +48,22 @@
 # *Пример:*
 # 385916 -> yes
 # 123456 -> no
+
+# Решение:
+ticket = '385916'
+ticket = ticket[:1] + ticket[1:2] + ticket[2:3]
+# print(ticket)
+# ticket = ticket[-3] + ticket[-2] + ticket[-1]
+# print(ticket)
+#print(ticket[0] '+' [1] '+' [2])
+#print(len(ticket))  
+#print([:])  
+
+
+    # n = int(input())
+
+
+
 # Решение:
 # print("Введите номер билета: ")
 # n = int(input())
