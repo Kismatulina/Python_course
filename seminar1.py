@@ -40,6 +40,7 @@
 # class_2 = (b + 1)//2
 # class_3 = (c + 1)//2
 # # print(class_1 + class_2 + class_3)
+
 # print('Количество парт: ', (class_1 + class_2 + class_3)) # так долго
 # print(f'Количество парт: {class_1 + class_2 + class_3}') # форматироваине строк f''
 
@@ -51,7 +52,8 @@
 # summ_tables = class_A + class_B + class_C
 # print("Desks for all students> ", summ_tables)
 
-# a = input("Сколько учищихся: ").split(" ") не понятно
+# import math
+# a = input("Сколько учищихся: ").split(" ") не понятно, это словарь import math надо записать
 # print(math.ceil((int(a[0])+int(a[1])+int(a[2]))/2))
 
 # a = 20 #не понятно? не работает
