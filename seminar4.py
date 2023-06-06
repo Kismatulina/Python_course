@@ -96,3 +96,25 @@ while (num:=int(input('--> '))) != 0:
         maxx = num
 
 print(maxx)
+
+
+def sum_delitel(num):
+    result = 0
+    for delitel in range(1, num):
+        if num%delitel == 0:
+            result += delitel
+    return result
+    
+    
+
+k = 100000
+
+# number = 10
+# sum_number = 8
+# sum_for_sum_number = 7
+# number ?= sum_for_sum_number
+for number in range(2, k + 1):
+    sum_number = sum_delitel(number)
+    sum_for_sum_number = sum_delitel(sum_number)
+    if (sum_for_sum_number == number) and (number != sum_number) and (number < sum_number):
+        print(number, sum_number)
