@@ -47,4 +47,4 @@ for i in range (len(arr_n)):
         # return arr_n
         print(i)
 else:
-    print('Ввели не коpректный диапазон')
+    print('Ввели не коректный диапазон') 
