@@ -10,11 +10,11 @@
 a = int(input('Введите число   '))
 b = int(input('Введите число   '))
 def stepen(a, b):
-    if b == 0:
+    if b == 0:  # базис любое число внулевой степени = 1
         return 1
     else:
-        return(a**b)
-print(stepen(a, b))
+        return(a**b) # рекурсия
+print(stepen(a, b)) # печатаем то что в функции def
 
 
 # Задача 28: Напишите рекурсивную функцию sum(a, b),
