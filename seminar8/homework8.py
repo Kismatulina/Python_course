@@ -21,7 +21,7 @@
 # w - перезапись файла
 
 import os
-file = 'seminar8\book.txt'
+file = 'D:\Python_course\seminar8\phone_book.txt'
 fields = ["Фамилия", "Имя", "Отчество", "Телефон", "Описание абонента\n"]
 phone_list1 = []
 def show_menu():
